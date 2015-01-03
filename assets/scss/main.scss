@@ -1,0 +1,16 @@
+html
+{
+  font-size: 10px;
+}
+body
+{
+  font-family: $font;
+  font-size: 1.6rem;
+}
+
+
+.container
+{
+  @include setContainer();
+}
+
